@@ -7,7 +7,7 @@ navbar_entries:
 
 project_entries:
   - title: Quorum CTF Part 1/3
-    url: quorum-ctf-part-1
+    url: quorum-ctf-part1
     desc: A writeup for the "Wiggle It" challenge from the Quorum CTF
 
   - title: Quorum CTF Part 2/3
