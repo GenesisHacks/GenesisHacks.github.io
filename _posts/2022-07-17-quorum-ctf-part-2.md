@@ -5,75 +5,26 @@ author: Joel Clement
 
 Recently I was invited to take part in teh Quorum Cyber CTF organised by Capture The Talent. In this 3 part series I go over my 3 favourite challenges from the CTF showing how I solved them and what I learned from them.
 
-## Amy's Still Confused
+## Amy's (Still) Confused
 
+![challenge description](https://i.imgur.com/uPUa5fv.png) 
 
+In this part we look at a challenge called "Amy's (Still) Confused". For this challenge the description was “Some stunning photography, I am sure you will agree. Look at the drama!” alongside this there was also a picture to download.
 
+![challenge image](https://i.imgur.com/7aaphON.jpg) 
 
+I first tried some basic ideas such as looking at the HEX data of the image and the exif data but had no luck with these, so I started thinking more about steganography tools. A really common one is steghide so I tried using this… Hmm it asks for a passphrase.
 
-Unordered:
+![steghide](https://i.imgur.com/wOFZdMc.png) 
 
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+It turns out that a passphrase isn’t always needed and just pressing enter to go to the next step will work just fine in this case, but this is where I need to admit I might have over complicated this one a bit.
+Rather than trying no passphrase as intended, I looked for a way to crack it and I found stegseek. This is a really cool steghide cracker that uses a wordlist to brute force the passphrase so I installed it and gave it a go. This of course still worked and I found a file called “lolwut.m4a” 
 
-Ordered:
+![stegseek](https://i.imgur.com/opGd8fR.png) 
+This is an audio file, so I gave it a listen and it read out an encoded message. “3433203534203534203736203638203331203634203639203665203637203566203734203737203331203633203333203231203764”
+I had no idea what type of encoding this could be, so I used the magic setting on cyberchef and got these results.
+ 
+![cyberchef](https://i.imgur.com/eY8EKW4.png)
 
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
-
-## Blockquote
-
-The following is a blockquote:
-
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
-
-## Thematic breaks (<hr>)
-
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
-
----
-{: data-content="hr with text"}
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
-
----
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
-
-## Code
-
-Now some code:
-
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-```
-
-And here is some `inline code`!
-
-## Tables
-
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
-
----
-{: data-content="footnotes"}
-
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+“CTTvh1ding_tw1c3!.” It’s not perfect but it’s enough for me to know the flag is CTT{h1ding_tw1c3!}
+While my mistake of over complicating the challenge has left me feeling a bit dumb, I’m actually glad that I made it, I learned much more this way. Not only do I now know that a passphrase is not always required but I also found a nice tool to crack passphrases in the future.
