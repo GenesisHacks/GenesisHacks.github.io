@@ -3,6 +3,4 @@ layout: post
 title: About
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+I'm a cybersecurity graduate posting CTF Writeups, Malware Analysis posts and more general cybersecurity and digital forensics content. I might also post about random tech projects I'm doing for fun every so often.
