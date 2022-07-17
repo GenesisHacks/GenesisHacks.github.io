@@ -8,9 +8,8 @@ author: Joel Clement
 ## Quorum CTF Part 1 - Wiggle It
 
 
-Recently I was invited to take part in teh Quorum Cyber CTF organised by Capture The Talent. In this 3 part series I go over my three favourite challenges from the CTF and show I solved them as well as how I learned from them.
+Recently I was invited to take part in teh Quorum Cyber CTF organised by Capture The Talent. In this 3 part series I go over my 3 favourite challenges from the CTF showing how I solved them and what I learned from them.
 
-## Lists
 
 Unordered:
 
