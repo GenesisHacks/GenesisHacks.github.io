@@ -9,7 +9,7 @@ Recently I was invited to take part in teh Quorum Cyber CTF organised by Capture
 
 In this first part we look at a challenge called "Wiggle It". This was a really fun challenge. We were given the name of a crematorium in Sheffield and had to find the specific make and model of the printer they use at the site. 
 
-![challenge description]([https://imgur.com/2v4kCYK]) 
+![challenge description]([https://imgur.com/2v4kCYK.png]) 
 
 As an OSINT noob I had no idea where to start with this one – I found the crematorium but that was just a simple google search away where could I possibly go from here? After a bit of searching it turns out there was a huge clue in the name… Wiggle is refering to wigle.net a wireless network mapping website. 
 
