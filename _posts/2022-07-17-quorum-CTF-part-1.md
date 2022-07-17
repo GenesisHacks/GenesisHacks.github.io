@@ -13,7 +13,8 @@ In this first part we look at a challenge called "Wiggle It". This was a really 
 
 As an OSINT noob I had no idea where to start with this one – I found the crematorium but that was just a simple google search away where could I possibly go from here? After a bit of searching it turns out there was a huge clue in the name… Wiggle is refering to wigle.net a wireless network mapping website. 
 
-Insert  IMG2
+![wigle](https://i.imgur.com/IsTEHnZ.png) 
+
 
 Now all I had to do was find the crematorium and the printer. Looking on google again it’s easy to find the address so I just put that into wigle.net
 
