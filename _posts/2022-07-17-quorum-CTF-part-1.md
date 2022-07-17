@@ -3,7 +3,7 @@ layout: post
 author: Joel Clement
 ---
 
-Recently I was invited to take part in teh Quorum Cyber CTF organised by Capture The Talent. In this 3 part series I go over my 3 favourite challenges from the CTF showing how I solved them and what I learned from them.
+Recently I was invited to take part in the Quorum Cyber CTF organised by Capture The Talent. In this 3 part series I go over my 3 favourite challenges from the CTF showing how I solved them and what I learned from them.
 
 ## Wiggle It
 
