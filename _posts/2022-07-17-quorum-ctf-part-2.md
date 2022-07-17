@@ -20,7 +20,8 @@ I first tried some basic ideas such as looking at the HEX data of the image and 
 It turns out that a passphrase isn’t always needed and just pressing enter to go to the next step will work just fine in this case, but this is where I need to admit I might have over complicated this one a bit.
 Rather than trying no passphrase as intended, I looked for a way to crack it and I found stegseek. This is a really cool steghide cracker that uses a wordlist to brute force the passphrase so I installed it and gave it a go. This of course still worked and I found a file called “lolwut.m4a” 
 
-![stegseek](https://i.imgur.com/opGd8fR.png) 
+![stegseek](https://i.imgur.com/opGd8fR.png)
+
 This is an audio file, so I gave it a listen and it read out an encoded message. “3433203534203534203736203638203331203634203639203665203637203566203734203737203331203633203333203231203764”
 I had no idea what type of encoding this could be, so I used the magic setting on cyberchef and got these results.
  
