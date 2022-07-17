@@ -18,19 +18,12 @@ As an OSINT noob I had no idea where to start with this one – I found the crem
 
 Now all I had to do was find the crematorium and the printer. Looking on google again it’s easy to find the address so I just put that into wigle.net
 
-Insert  IMG3
-Insert  IMG4
+![cremgoog](https://i.imgur.com/e2Drqwy.png) 
+![cremwigle](https://i.imgur.com/gLGFOGD.png)
 
 Well we got the road but its not the exact right place so next I did a bit of searching and it looks like we found the right place.
 
-Insert  IMG5 
-Insert  IMG6
+![cremfound](https://i.imgur.com/BLlI4pi.png) 
+![printer](https://i.imgur.com/EIYOqDQ.png)
 
 I zoomed in and found this so the flag is “CTT{HP_ENVY_4520}”!
-
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
