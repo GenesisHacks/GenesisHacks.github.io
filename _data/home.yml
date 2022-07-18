@@ -26,7 +26,7 @@ project_entries:
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
-    highlight: Malware Analysis
+    highlight: MAL
     highlight: WIP
     
 
