@@ -21,14 +21,14 @@ project_entries:
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
-    highlight: WIP
     highlight: CTF
 
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
-    highlight: WIP
     highlight: Malware Analysis
+    highlight: WIP
+    
 
   - title: More Coming Soon...
     #url: overview-post
