@@ -22,11 +22,13 @@ project_entries:
     #url: overview-post
     desc: More posts coming soon :)
     highlight: WIP
+    highlight: CTF
 
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
     highlight: WIP
+    highlight: Malware Analysis
 
   - title: More Coming Soon...
     #url: overview-post
