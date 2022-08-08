@@ -2,13 +2,13 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: blog
-    url: blo
+  - title: blo
+    url: blog
 
 project_entries:
   - title: Practical Malware Analysis Lab 1
     url: practical-malware-analysis-lab-1
-    desc: A look at the chapter 1 labs from "Practical Malware Analysis" <br>
+    desc: A look at the chapter 1 labs from "Practical Malware Analysis" <br><br>
     highlight: <br>Malware Analysis
 
   - title: Quorum CTF Part 3/3
