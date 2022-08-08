@@ -8,7 +8,7 @@ navbar_entries:
 project_entries:
   - title: Practical Malware Analysis Lab 1
     url: practical-malware-analysis-lab-1
-    desc: A look at the chapter 1 labs from Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software
+    desc: A look at the chapter 1 labs from "Practical Malware Analysis The Hands-On Guide to Dissecting Malicious Software"
     highlight: MALWARE ANALYSIS
 
   - title: Quorum CTF Part 3/3
