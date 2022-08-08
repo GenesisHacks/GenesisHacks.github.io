@@ -9,7 +9,7 @@ project_entries:
   - title: Practical Malware Analysis Lab 1    
     url: practical-malware-analysis-lab-1
     desc: A look at the chapter 1 labs from "Practical Malware Analysis"
-    highlight: MALWARE ANALYSIS
+    highlight: Malware Analysis
 
   - title: Quorum CTF Part 3/3
     url: quorum-ctf-part-3
@@ -29,7 +29,7 @@ project_entries:
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
-    highlight: Malware Analysis
+    highlight: WIP
     
   - title: More Coming Soon...
     #url: overview-post
