@@ -6,30 +6,30 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: Quorum CTF Part 1/3
-    url: quorum-ctf-part-1
-    desc: A writeup for the "Wiggle It" challenge from the Quorum CTF
-    highlight: CTF
-
-  - title: Quorum CTF Part 2/3
-    url: quorum-ctf-part-2
-    desc: A writeup for the "Amy's Still Confused" challenge from the Quorum CTF
-    highlight: CTF
+  - title: Practical Malware Analysis Lab 1
+    url: practical-malware-analysis-lab-1
+    desc: A look at the chapter 1 labs from "Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software"
+    highlight: MALWARE ANALYSIS
 
   - title: Quorum CTF Part 3/3
     url: quorum-ctf-part-3
     desc: A writeup for the "2+2=4-1=3 Qwik maffs" challenge from the Quorum CTF
     highlight: CTF
+    
+  - title: Quorum CTF Part 2/3
+    url: quorum-ctf-part-2
+    desc: A writeup for the "Amy's Still Confused" challenge from the Quorum CTF
+    highlight: CTF
+    
+  - title: Quorum CTF Part 1/3
+    url: quorum-ctf-part-1
+    desc: A writeup for the "Wiggle It" challenge from the Quorum CTF
+    highlight: CTF
 
   - title: More Coming Soon...
     #url: overview-post
     desc: More posts coming soon :)
-    highlight: WIP
-
-  - title: More Coming Soon...
-    #url: overview-post
-    desc: More posts coming soon :)
-    highlight: WIP
+    highlight: Malware Analysis
     
 
   - title: More Coming Soon...
